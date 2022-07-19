@@ -1,0 +1,132 @@
+/* Common styles */
+
+body {
+   margin : 0;
+
+}
+.without-footer {
+    margin : auto;
+    width : 80%;
+    margin-top : 20px;
+}
+
+/* Header Sections */
+
+header {
+    background-color: #161616;
+    display : flex;
+    border-radius : 10px;
+    margin-bottom: 60px;
+
+}
+.header-text {
+    color : white;
+    width : 50%;
+    padding: 40px ;
+}
+.header-paragraph {
+    margin-bottom: 30px;
+}
+.header-button {
+    background-color : #DD0000;
+    color : white;
+    font-weight: 500;
+    padding :16px 25px;
+    text-decoration : none;
+
+   
+ 
+}
+.banner-image {
+    width : 50%;
+}
+
+/* Upcoming Match|All Goroup |Block */
+
+.content{
+    display: flex;
+    margin-bottom: 40px;
+    
+}
+.left-sidebar
+{
+    background-color: black;
+    width :180px;
+    height : 180px;
+    display: flex;
+    flex-direction: column;
+    border-radius : 5px;
+    justify-content: center;
+    margin-right: 20px;
+}
+.left-sidebar a {
+   background-color: white;
+   color : black;
+   border-radius : 5px;
+   width :  70%;
+   margin: 8px auto;
+      padding : 10px 15px;
+      
+   text-decoration: none;
+   font-weight : 500;
+
+}
+
+/* Navigation Content */
+.navigation-content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 18px   ;
+    row-gap: 15px;
+    
+    
+    
+}
+.match-details {
+    height: 150px;
+    width : 180px;  
+    border: 1px solid #E8E8E8;
+}
+.match-detail {
+    margin: 8px 12px;
+
+}
+.team-name {
+  font-size : 20px;
+  text-align : center;
+}
+.match-time {
+    text-align : center;
+}
+.thumbnail {
+    display : flex;
+   align-items: center;
+   justify-content: space-between;
+
+}
+.thumbnail > img {
+    width: 40%;
+}
+
+/* footer */
+footer {
+    background-color : black;
+    color : white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items : center;
+    min-height: 200px;
+  
+}
+footer hr {
+    width: 80%;
+    border : 1px solid #FFFFFF;
+    
+}
+footer a {
+    font-size: 10px;
+    text-decoration: none;
+    color : white;  
+    margin-left : 4px;      
+}
